@@ -1,0 +1,27 @@
+Game rules 
+There is a card deck with 52 cards, each card with a different Rank or Color.
+The value of the card is compared by the color then only by the rank value.
+However, there is one more rule for this, for example if the first player played card BLUE FOUR, then all the following players should play BLUE card also if they have a BLUE card on their hand.
+If they don't have a BLUE card, they can play any other color card, but the other card would be considered as having lowest value unless it is a donald card which is called at the beginning if and only if the player who called for the donald have played the card already.
+Then after the player has won a round of game, the next round would be starting from the player who won the round.
+							
+Default Card Priority
+Rank value : 1 < 2 < 3 < 4 < 5 < 6 < 7 < 8 < 9 < 10 < A < B < C
+
+At the beginning, after the cards are assigned equally and randomly to the players, they should start to call for donald (number of donald + donald value) to decide the winning criteria.
+Call for donald would change the winning criteria.
+For example, if I call for RED THREE, then my team would need to win (6 + 3) rounds to win the game while the other team only needs (8 - 3) rounds to win the game.
+Besides, if RED THREE is called then it means the RED card would be bigger than any other color card without considering their rank if and only if the RED card is played by the player who called for it.
+Same goes to other donald values except for NO DONALD which means the game will follow the default card priority.
+When calling for donald, if someone has called for a certain value like 2, then the following player should call for a certain value that is greater than or equals to 2 [2 to 6].
+The value of the donald called would be compared by number then only followed by color.
+After the donald is chosen, the donald needs to choose a donald color.
+				
+Donald Priority
+Donald number: 1 < 2 < 3 < 4 < 5 < 6
+Donald color : GREEN = BLUE = YELLOW = RED = NO DONALD
+(after the donald color is selected it will become the highest value)
+
+Winning Criteria
+Team who called for donald: 6 + number of donald
+Another team: 8 - (number of donald)	
