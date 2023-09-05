@@ -1,9 +1,9 @@
 Hi, I am Ci En!
 This is my first Java Project.
 At first, I wanted to try to make a GUI for the game but then I realised I didn't have enough time to complete the whole game.
-I had my first version of a complete runnable game on 20/5 and improved the program continually by adding some features and removing some redundant codes. 
-First submit on 24/5 00:00.
-Second submit on 24/5 14:45.
+I had my first version of a complete runnable game on 20/5/2021 and improved the program continually by adding some features and removing some redundant codes. 
+First submit on 24/5/2021 00:00.
+Second submit on 24/5/2021 14:45.
 
 The program starts with a game rule window.
 Players are required to enter their name and bid for donald.
